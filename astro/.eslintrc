@@ -1,0 +1,12 @@
+{
+    "parser": "astro-eslint-parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2021,
+        "ecmaFeatures": {
+            "globalReturn": false,
+            "impliedStrict": false,
+            "jsx": false
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "format": "prettier --write .",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/mdx": "^4.0.2",
+    "@astrojs/react": "^4.1.0",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/starlight-tailwind": "^3.0.0",
+    "@astrojs/ts-plugin": "^1.10.4",
+    "@astrolib/seo": "^1.0.0-beta.8",
+    "@tailwindcss/postcss": "^4.0.0-beta.7",
+    "@types/react": "^19.0.1",
+    "astro": "^5.0.5",
+    "astro-compressor": "^1.0.0",
+    "astro-eslint-parser": "^1.1.0",
+    "astro-expressive-code": "^0.38.3",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.7",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^4.0.0-beta.7",
+    "typescript": "^5.7.2"
+  }
+}

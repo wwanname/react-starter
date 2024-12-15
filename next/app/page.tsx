@@ -1,3 +1,9 @@
 export default function Home() {
-  return <section>Check page.tsx</section>
+  return (
+    <>
+    <section>
+      Check page.tsx
+    </section>
+    </>
+  )
 }

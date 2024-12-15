@@ -1,5 +1,5 @@
 import type { Config } from 'tailwindcss'
-// import fluid, { extract, screens, fontSize } from "fluid-tailwind"
+// import fluid, { extract } from 'fluid-tailwind'  -> Wait fluid-tailwind update to Tailwind 4.0
 
 export default {
   content: {
@@ -8,8 +8,8 @@ export default {
       './components/**/*.{js,ts,jsx,tsx,mdx}',
       './app/**/*.{js,ts,jsx,tsx,mdx}',
       '../../packages/ui/*.{js,ts,jsx,tsx}'
-    ]
-    // extract
+    ],
+    // extract,
   },
   theme: {
     container: {},
